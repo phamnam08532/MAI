@@ -5,7 +5,7 @@ async function sendMessage() {
     // Hiển thị câu hỏi của người dùng
     responseDiv.innerHTML = `Bạn hỏi: ${userInput}`;
 
-    const apiKey = "YOUR_COHERE_API_KEY";  // Thay "YOUR_COHERE_API_KEY" bằng API key của bạn
+    const apiKey = "vt2A3wIc66Qwi0qzEwhhay9OlBtVatOEjR2yhYDA";  // Thay "YOUR_COHERE_API_KEY" bằng API key của bạn
 
     const response = await fetch('https://api.cohere.ai/v1/generate', {
         method: 'POST',
